@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>동경에서 일하는 개발자 모임</title>
+        <title>일본에서 일하는 한국인 개발자 모임</title>
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
         <link href="{{ asset("css/style.css") }}" rel="stylesheet" type="text/css">
     </head>
@@ -16,7 +16,7 @@
                         <input type="submit" value="Back">
                     </form>
                 @else
-                    <h1>Slack : 동경에서 일하는 개발자 모임</h1>
+                    <h1>Slack : 일본에서 일하는 한국인 개발자 모임</h1>
                     <form method="post">
                         {!! csrf_field() !!}
                         <input type="email" name="email" value="{{ $email }}" placeholder="you@yourdomain.com" autofocus="true" class="{{ $err_msg !== '' ? 'error' : '' }}"">
